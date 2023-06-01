@@ -33,7 +33,7 @@ body{
 }
 .container{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--bgColor);
     flex-direction: column;
 }
@@ -214,6 +214,9 @@ footer{
     transitionx: 0.1s ease-in;
     width: 100vw;
     background-color: #212121;
+    background:linear-gradient(to right,
+            #cc181e 0%, #cc181e 0%,
+            #444 0%, #444 100%);
   } 
 
   #volumeBar{
